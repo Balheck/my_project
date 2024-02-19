@@ -4,7 +4,7 @@ const Form = () => {
     return <>
  <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
   <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-    <Image width={5} height={5} class="mx-auto h-10 w-auto" src="/meteo/src/images/recherche.png" alt="Your Company"/>
+    <Image width={50} height={50} className="mx-auto" src="/meteo/src/app/images/recherche.png"/>
     <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Sign in to your account</h2>
   </div>
 
