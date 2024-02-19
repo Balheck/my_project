@@ -1,5 +1,11 @@
+import Navbar from "./components/navbar";
+import FormComponent from "./components/form";
+
 const Home = () => {
-  return <h1>Bonjour monde</h1>
-}
+  return <>
+  <Navbar />
+  <FormComponent />
+  </>;
+};
 
 export default Home;
